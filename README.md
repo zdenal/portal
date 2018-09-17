@@ -1,21 +1,18 @@
 # Portal
 
-**TODO: Add description**
+Only test for publishing package to hex package manager.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+[Available in Hex](https://hex.pm/packages/portal_test_zdenal), the package can be installed
 by adding `portal` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:portal, "~> 0.1.0"}
+    {:portal, "~> 0.1.0", hex: :portal_test_zdenal}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/portal](https://hexdocs.pm/portal).
-
+Documentation [https://hexdocs.pm/portal_test_zdenal/api-reference.html](https://hexdocs.pm/portal_test_zdenal/api-reference.html).

@@ -9,8 +9,8 @@ defmodule Portal.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
-			source_url: "https://github.com/zdenal/portal.git",
-			description: "Test for publishing package from https://howistart.org/posts/elixir/1/"
+      source_url: "https://github.com/zdenal/portal.git",
+      description: "Test for publishing package from https://howistart.org/posts/elixir/1/"
     ]
   end
 
@@ -23,9 +23,12 @@ defmodule Portal.MixProject do
   end
 
   def package do
+  [
     name: "portal_test_zdenal",
     licenses: ["Apache 2.0"],
+    maintainers: ["Zdenko Nevrala"],
     links: %{"GitHub" => "https://github.com/zdenal/portal.git"}
+  ]
   end
 
   # Run "mix help deps" to learn about dependencies.
